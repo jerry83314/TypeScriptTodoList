@@ -1,15 +1,5 @@
-// 任務介面型別
-interface Task {
-  name: string,
-  status: TaskStatus
-};
-
-// 任務列舉
-enum TaskStatus {
-  Todo,
-  InProgress,
-  Done
-};
+import { TaskStatus } from "./types/TaskStatus.js";
+import { Task } from './types/Task.js';
 
 // 空陣列
 let tasks: Task[] = [];
